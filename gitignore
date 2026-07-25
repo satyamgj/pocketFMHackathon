@@ -1,0 +1,26 @@
+# Secrets — never commit these
+.env
+*.env
+
+# Generated data (audio, caches, personality/recap/status files) —
+# regenerated at runtime, shouldn't live in git. Matches at any depth,
+# so this covers frontend/data/ too.
+data/
+
+# TTS voice model binaries (e.g. Piper .onnx files) — large, and unused
+# now that TTS runs through OpenAI instead
+voices/
+
+# TTS test output
+voice_samples/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# OS cruft
+.DS_Store
+Thumbs.db
