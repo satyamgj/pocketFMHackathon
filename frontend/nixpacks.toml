@@ -1,0 +1,6 @@
+# Tells Railway's build (Nixpacks) to install ffmpeg alongside Python.
+# Needed because render.py calls the ffmpeg binary directly via subprocess —
+# without this, TTS mixing will fail on the deployed dashboard service with
+# "ffmpeg: command not found".
+[phases.setup]
+nixPkgs = ["ffmpeg"]

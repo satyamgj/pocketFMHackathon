@@ -9,3 +9,4 @@ faster-whisper>=1.0.0       # local ASR, only needed for a one-off transcript-ge
 
 # --- Dev convenience ---
 python-dotenv>=1.0.0         # loads ANTHROPIC_API_KEY from .env
+

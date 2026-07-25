@@ -44,9 +44,14 @@ more guessing here):
 
   GET /health -> {"status": "ok"}
 """
+import os
+
 import requests
 
-API_BASE_URL = "http://localhost:8000"
+API_BASE_URL = os.environ.get("TECH_A_API_URL", "https://pocketfm-production.up.railway.app")
+# Defaults to the deployed backend now. Override with a TECH_A_API_URL
+# environment variable if you want to point at a local backend instead
+# (e.g. TECH_A_API_URL=http://localhost:8000 while developing pipeline/ changes).
 DEFAULT_TIMEOUT = 60  # generous — first POV call for an uncached character runs the LLM pipeline
 
 
