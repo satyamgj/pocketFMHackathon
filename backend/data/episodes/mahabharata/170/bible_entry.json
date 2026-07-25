@@ -1,0 +1,613 @@
+{
+  "series_id": "mahabharata",
+  "episode_num": 170,
+  "facts": [
+    {
+      "id": "f_001",
+      "claim": "Drona is using celestial weapons against untrained men, including farmers and boys.",
+      "type": "event",
+      "established_at": 170,
+      "observers": [
+        "Drona",
+        "Sage"
+      ],
+      "misperceivers": [],
+      "confidence": "explicit",
+      "supersedes": null
+    },
+    {
+      "id": "f_002",
+      "claim": "Drona was given celestial weapons on the condition that he would not use them against men who cannot answer them.",
+      "type": "relationship",
+      "established_at": 170,
+      "observers": [
+        "Drona",
+        "Sage"
+      ],
+      "misperceivers": [],
+      "confidence": "explicit",
+      "supersedes": null
+    },
+    {
+      "id": "f_003",
+      "claim": "Drona has crossed the boundary of war by using celestial weapons on untrained men.",
+      "type": "event",
+      "established_at": 170,
+      "observers": [
+        "Drona",
+        "Sage"
+      ],
+      "misperceivers": [],
+      "confidence": "explicit",
+      "supersedes": null
+    },
+    {
+      "id": "f_004",
+      "claim": "The Pandava forces have stopped counting their dead because the men who were counting are dead.",
+      "type": "state",
+      "established_at": 170,
+      "observers": [
+        "Arjuna",
+        "Yudhishthira",
+        "Bhima"
+      ],
+      "misperceivers": [],
+      "confidence": "explicit",
+      "supersedes": null
+    },
+    {
+      "id": "f_005",
+      "claim": "Drona currently has the Brahmastra on the string and is prepared to use it.",
+      "type": "state",
+      "established_at": 170,
+      "observers": [
+        "Arjuna",
+        "Bhima",
+        "Krishna",
+        "Yudhishthira"
+      ],
+      "misperceivers": [],
+      "confidence": "explicit",
+      "supersedes": null
+    },
+    {
+      "id": "f_006",
+      "claim": "Drona cannot be beaten while he is holding his bow.",
+      "type": "state",
+      "established_at": 170,
+      "observers": [
+        "Krishna",
+        "Arjuna",
+        "Bhima",
+        "Yudhishthira"
+      ],
+      "misperceivers": [],
+      "confidence": "explicit",
+      "supersedes": null
+    },
+    {
+      "id": "f_007",
+      "claim": "Drona's one weakness is his son, Ashwatthama.",
+      "type": "attribute",
+      "established_at": 170,
+      "observers": [
+        "Krishna",
+        "Arjuna",
+        "Bhima",
+        "Yudhishthira"
+      ],
+      "misperceivers": [],
+      "confidence": "explicit",
+      "supersedes": null
+    },
+    {
+      "id": "f_008",
+      "claim": "Drona would lay down his bow if he believed Ashwatthama was dead.",
+      "type": "state",
+      "established_at": 170,
+      "observers": [
+        "Krishna",
+        "Arjuna",
+        "Bhima",
+        "Yudhishthira"
+      ],
+      "misperceivers": [],
+      "confidence": "explicit",
+      "supersedes": null
+    },
+    {
+      "id": "f_009",
+      "claim": "Ashwatthama is alive and on the north flank, unwounded.",
+      "type": "state",
+      "established_at": 170,
+      "observers": [
+        "Arjuna",
+        "Krishna",
+        "Bhima",
+        "Yudhishthira"
+      ],
+      "misperceivers": [],
+      "confidence": "explicit",
+      "supersedes": null
+    },
+    {
+      "id": "f_010",
+      "claim": "There is an elephant named Ashwatthama in Indravarma's line, named after Drona's son.",
+      "type": "state",
+      "established_at": 170,
+      "observers": [
+        "Bhima",
+        "Krishna",
+        "Arjuna",
+        "Yudhishthira"
+      ],
+      "misperceivers": [],
+      "confidence": "explicit",
+      "supersedes": null
+    },
+    {
+      "id": "f_011",
+      "claim": "Bhima shouts that Ashwatthama is dead.",
+      "type": "event",
+      "established_at": 170,
+      "observers": [
+        "Bhima",
+        "Arjuna",
+        "Yudhishthira",
+        "Krishna",
+        "Drona",
+        "soldiers nearby"
+      ],
+      "misperceivers": [],
+      "confidence": "explicit",
+      "supersedes": null
+    },
+    {
+      "id": "f_012",
+      "claim": "Drona does not believe Bhima's claim that Ashwatthama is dead.",
+      "type": "state",
+      "established_at": 170,
+      "observers": [
+        "Drona"
+      ],
+      "misperceivers": [],
+      "confidence": "explicit",
+      "supersedes": null
+    },
+    {
+      "id": "f_013",
+      "claim": "Drona trusts Yudhishthira to always tell the truth.",
+      "type": "relationship",
+      "established_at": 170,
+      "observers": [
+        "Drona",
+        "Yudhishthira"
+      ],
+      "misperceivers": [],
+      "confidence": "explicit",
+      "supersedes": null
+    },
+    {
+      "id": "f_014",
+      "claim": "Yudhishthira tells Drona that Ashwatthama is dead, then quietly adds 'the elephant.'",
+      "type": "event",
+      "established_at": 170,
+      "observers": [
+        "Yudhishthira",
+        "Drona",
+        "Arjuna",
+        "Bhima",
+        "Krishna"
+      ],
+      "misperceivers": [
+        {
+          "char": "Drona",
+          "believes": "Ashwatthama, his son, is dead."
+        }
+      ],
+      "confidence": "explicit",
+      "supersedes": null
+    },
+    {
+      "id": "f_015",
+      "claim": "Arjuna orders Drona to be taken alive as Drona sits down unarmed.",
+      "type": "event",
+      "established_at": 170,
+      "observers": [
+        "Arjuna",
+        "Bhima",
+        "Yudhishthira",
+        "Krishna",
+        "Dhrishtadyumna",
+        "soldiers nearby"
+      ],
+      "misperceivers": [],
+      "confidence": "explicit",
+      "supersedes": null
+    },
+    {
+      "id": "f_016",
+      "claim": "Ashwatthama is alive, fighting elsewhere, and unaware of the events involving his father.",
+      "type": "state",
+      "established_at": 170,
+      "observers": [
+        "Ashwatthama"
+      ],
+      "misperceivers": [
+        {
+          "char": "Drona",
+          "believes": "Ashwatthama is dead."
+        }
+      ],
+      "confidence": "explicit",
+      "supersedes": null
+    }
+  ],
+  "beats": [
+    {
+      "id": "b_170_01",
+      "unit": 170,
+      "order": 1,
+      "summary": "A soldier reports that Drona does not stop, and Arjuna orders a fallback to the second line.",
+      "present": [
+        "Soldier",
+        "Arjuna",
+        "Bhima"
+      ],
+      "perceived_by": {
+        "Soldier": "full",
+        "Arjuna": "full",
+        "Bhima": "full"
+      },
+      "establishes": [],
+      "silences": []
+    },
+    {
+      "id": "b_170_02",
+      "unit": 170,
+      "order": 2,
+      "summary": "Bhima insists Arjuna look at the ground, implying devastation.",
+      "present": [
+        "Arjuna",
+        "Bhima"
+      ],
+      "perceived_by": {
+        "Arjuna": "full",
+        "Bhima": "full"
+      },
+      "establishes": [],
+      "silences": []
+    },
+    {
+      "id": "b_170_03",
+      "unit": 170,
+      "order": 3,
+      "summary": "The Sage confronts Drona about his use of celestial weapons against untrained men, reminding him of the conditions.",
+      "present": [
+        "Sage",
+        "Drona"
+      ],
+      "perceived_by": {
+        "Sage": "full",
+        "Drona": "full"
+      },
+      "establishes": [
+        "f_001",
+        "f_002",
+        "f_003"
+      ],
+      "silences": []
+    },
+    {
+      "id": "b_170_04",
+      "unit": 170,
+      "order": 4,
+      "summary": "Yudhishthira asks how many have died, and Arjuna reveals they have stopped counting because the counters are dead.",
+      "present": [
+        "Yudhishthira",
+        "Arjuna",
+        "Bhima"
+      ],
+      "perceived_by": {
+        "Yudhishthira": "full",
+        "Arjuna": "full",
+        "Bhima": "full"
+      },
+      "establishes": [
+        "f_004"
+      ],
+      "silences": []
+    },
+    {
+      "id": "b_170_05",
+      "unit": 170,
+      "order": 5,
+      "summary": "Bhima proposes attacking Drona together, but Arjuna points out Drona has the Brahmastra ready.",
+      "present": [
+        "Arjuna",
+        "Bhima"
+      ],
+      "perceived_by": {
+        "Arjuna": "full",
+        "Bhima": "full"
+      },
+      "establishes": [
+        "f_005"
+      ],
+      "silences": []
+    },
+    {
+      "id": "b_170_06",
+      "unit": 170,
+      "order": 6,
+      "summary": "Krishna states Drona cannot be beaten while holding his bow.",
+      "present": [
+        "Krishna",
+        "Arjuna",
+        "Bhima",
+        "Yudhishthira"
+      ],
+      "perceived_by": {
+        "Krishna": "full",
+        "Arjuna": "full",
+        "Bhima": "full",
+        "Yudhishthira": "full"
+      },
+      "establishes": [
+        "f_006"
+      ],
+      "silences": []
+    },
+    {
+      "id": "b_170_07",
+      "unit": 170,
+      "order": 7,
+      "summary": "Krishna explains Drona's weakness is his son, Ashwatthama, and that Drona would lay down his bow if he believed his son dead.",
+      "present": [
+        "Krishna",
+        "Arjuna",
+        "Bhima",
+        "Yudhishthira"
+      ],
+      "perceived_by": {
+        "Krishna": "full",
+        "Arjuna": "full",
+        "Bhima": "full",
+        "Yudhishthira": "full"
+      },
+      "establishes": [
+        "f_007",
+        "f_008"
+      ],
+      "silences": []
+    },
+    {
+      "id": "b_170_08",
+      "unit": 170,
+      "order": 8,
+      "summary": "Arjuna confirms Ashwatthama is alive and unwounded on the north flank.",
+      "present": [
+        "Arjuna",
+        "Krishna",
+        "Bhima",
+        "Yudhishthira"
+      ],
+      "perceived_by": {
+        "Arjuna": "full",
+        "Krishna": "full",
+        "Bhima": "full",
+        "Yudhishthira": "full"
+      },
+      "establishes": [
+        "f_009"
+      ],
+      "silences": []
+    },
+    {
+      "id": "b_170_09",
+      "unit": 170,
+      "order": 9,
+      "summary": "Bhima reveals there is an elephant named Ashwatthama in Indravarma's line.",
+      "present": [
+        "Bhima",
+        "Krishna",
+        "Arjuna",
+        "Yudhishthira"
+      ],
+      "perceived_by": {
+        "Bhima": "full",
+        "Krishna": "full",
+        "Arjuna": "full",
+        "Yudhishthira": "full"
+      },
+      "establishes": [
+        "f_010"
+      ],
+      "silences": []
+    },
+    {
+      "id": "b_170_10",
+      "unit": 170,
+      "order": 10,
+      "summary": "Krishna says Drona will only believe Yudhishthira if told Ashwatthama is dead.",
+      "present": [
+        "Krishna",
+        "Arjuna",
+        "Bhima",
+        "Yudhishthira"
+      ],
+      "perceived_by": {
+        "Krishna": "full",
+        "Arjuna": "full",
+        "Bhima": "full",
+        "Yudhishthira": "full"
+      },
+      "establishes": [],
+      "silences": []
+    },
+    {
+      "id": "b_170_11",
+      "unit": 170,
+      "order": 11,
+      "summary": "Yudhishthira refuses to lie, but is reminded of the stakes by Krishna and Bhima.",
+      "present": [
+        "Krishna",
+        "Arjuna",
+        "Bhima",
+        "Yudhishthira"
+      ],
+      "perceived_by": {
+        "Krishna": "full",
+        "Arjuna": "full",
+        "Bhima": "full",
+        "Yudhishthira": "full"
+      },
+      "establishes": [],
+      "silences": []
+    },
+    {
+      "id": "b_170_12",
+      "unit": 170,
+      "order": 12,
+      "summary": "Bhima shouts that Ashwatthama is dead.",
+      "present": [
+        "Bhima",
+        "Arjuna",
+        "Yudhishthira",
+        "Krishna",
+        "Drona",
+        "soldiers nearby"
+      ],
+      "perceived_by": {
+        "Bhima": "full",
+        "Arjuna": "full",
+        "Yudhishthira": "full",
+        "Krishna": "full",
+        "Drona": "full"
+      },
+      "establishes": [
+        "f_011"
+      ],
+      "silences": []
+    },
+    {
+      "id": "b_170_13",
+      "unit": 170,
+      "order": 13,
+      "summary": "Drona hears Bhima but does not believe him; he calls for Yudhishthira.",
+      "present": [
+        "Drona",
+        "Yudhishthira",
+        "Arjuna",
+        "Bhima",
+        "Krishna"
+      ],
+      "perceived_by": {
+        "Drona": "full",
+        "Yudhishthira": "full",
+        "Arjuna": "full",
+        "Bhima": "full",
+        "Krishna": "full"
+      },
+      "establishes": [
+        "f_012"
+      ],
+      "silences": []
+    },
+    {
+      "id": "b_170_14",
+      "unit": 170,
+      "order": 14,
+      "summary": "Drona affirms his trust in Yudhishthira's truthfulness and asks if his son is dead.",
+      "present": [
+        "Drona",
+        "Yudhishthira",
+        "Arjuna",
+        "Bhima",
+        "Krishna"
+      ],
+      "perceived_by": {
+        "Drona": "full",
+        "Yudhishthira": "full",
+        "Arjuna": "full",
+        "Bhima": "full",
+        "Krishna": "full"
+      },
+      "establishes": [
+        "f_013"
+      ],
+      "silences": []
+    },
+    {
+      "id": "b_170_15",
+      "unit": 170,
+      "order": 15,
+      "summary": "Yudhishthira declares Ashwatthama is dead, then quietly adds 'the elephant.'",
+      "present": [
+        "Yudhishthira",
+        "Drona",
+        "Arjuna",
+        "Bhima",
+        "Krishna"
+      ],
+      "perceived_by": {
+        "Yudhishthira": "full",
+        "Drona": "partial",
+        "Arjuna": "full",
+        "Bhima": "full",
+        "Krishna": "full"
+      },
+      "establishes": [
+        "f_014"
+      ],
+      "silences": [
+        "Yudhishthira does not clarify to Drona that he means the elephant, not the son."
+      ]
+    },
+    {
+      "id": "b_170_16",
+      "unit": 170,
+      "order": 16,
+      "summary": "Arjuna orders Drona to be taken alive as Drona sits down unarmed, shouting for Dhrishtadyumna.",
+      "present": [
+        "Arjuna",
+        "Drona",
+        "Bhima",
+        "Yudhishthira",
+        "Krishna",
+        "Dhrishtadyumna",
+        "soldiers nearby"
+      ],
+      "perceived_by": {
+        "Arjuna": "full",
+        "Drona": "full",
+        "Bhima": "full",
+        "Yudhishthira": "full",
+        "Krishna": "full",
+        "Dhrishtadyumna": "full"
+      },
+      "establishes": [
+        "f_015"
+      ],
+      "silences": []
+    },
+    {
+      "id": "b_170_17",
+      "unit": 170,
+      "order": 17,
+      "summary": "Ashwatthama, elsewhere, celebrates his own victories and is unaware of the events involving his father.",
+      "present": [
+        "Ashwatthama"
+      ],
+      "perceived_by": {
+        "Ashwatthama": "full"
+      },
+      "establishes": [
+        "f_016"
+      ],
+      "silences": [
+        "Ashwatthama does not react to the news of his supposed death."
+      ]
+    }
+  ]
+}

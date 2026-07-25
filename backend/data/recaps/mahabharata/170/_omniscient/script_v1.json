@@ -1,0 +1,13 @@
+{
+  "series_id": "mahabharata",
+  "episode_num": 170,
+  "character": null,
+  "version": 1,
+  "text": "A stillness, almost unfamiliar after so much noise—Drona’s bow lowered, the Brahmastra dropping away, and the dust doesn’t settle, it just hangs. The word—Ashwatthama—echoes, louder than Bhima’s shout, louder than anything. It’s the only thing Drona hears. Not the bodies, not the burning sky, not that even the counters are gone now, so no one knows how many lie in the fields. Only that word. Ashwatthama. The power of it. How it cracks certainty open. Drona, undefeated until now, bow always steady—brought down with a word. Not by the weapons he gave his oath to, not by force, not by Arjuna’s hand, but by the name of his son. He asks Yudhishthira, because he believes Yudhishthira, and even as the truth is split in two, the answer is given. Ashwatthama is dead. The elephant. Quiet, almost hidden, but not quite. The moment Drona sits, everything else recedes—the burning, the numbers, the sage’s warning, the question of right or wrong. The world narrows. Arjuna shouts for Dhrishtadyumna to take him alive, but that’s just a ripple against the stillness. Ashwatthama, alive on the north flank, swinging his sword, unaware his name has ended a war elsewhere. The difference between a living son and a dead one—measured in a pause, in a word, in the sound of a bow falling to the ground.",
+  "word_count": 221,
+  "judge": {
+    "faithful": true,
+    "reasons": [],
+    "tier": "pass"
+  }
+}

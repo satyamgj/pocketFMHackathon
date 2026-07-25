@@ -1,0 +1,13 @@
+{
+  "series_id": "mahabharata",
+  "episode_num": 170,
+  "character": "Arjuna",
+  "version": 1,
+  "text": "The mud on my palms is black with something that should have stayed inside a man. My nails are full of it—I keep scraping at the lines and it won’t come clean. Ashwatthama is alive. I could see the blue on his shoulders from here, north flank, untouched. Still, Drona has put down his bow. I ordered “Take him alive,” and my throat burned. Drona, kneeling, eyes on the ground as if waiting for someone else to decide if he breathes. All I wanted was to stop the dying before Yudhishthira lost another piece of himself. We have stopped counting. The last counter had his hands around a friend’s throat, not a tally stone. That’s how it ends—the ones who can keep score are gone, the rest of us just guessing how much is left to lose.\n\nYudhishthira’s voice—the way he said it, not looking at any of us, not looking at his own hands. Ashwatthama is dead. Then, quiet as a broken branch, the elephant. Drona didn’t hear the second part. Or he chose not to. I keep thinking if I shout, if I run north, show Drona his son whole and breathing, maybe the arrow will go back in the quiver, maybe Yudhishthira won’t— No. The choice was made. Bhima’s eyes dared him. Krishna’s hands silent at his back. If the burden had to fall, it should have been mine. My voice, my stain. Not his. \n\nI keep glancing north. Ashwatthama, alive, unwounded. The lie is a spear point in my heel. But the dying—the dying has finally stopped. For now.",
+  "word_count": 263,
+  "judge": {
+    "faithful": true,
+    "reasons": [],
+    "tier": "pass"
+  }
+}

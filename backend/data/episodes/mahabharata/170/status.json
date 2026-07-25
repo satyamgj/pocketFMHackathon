@@ -1,0 +1,84 @@
+{
+  "series_id": "mahabharata",
+  "episode_num": 170,
+  "stages": {
+    "asr": {
+      "stage": "asr",
+      "state": "done",
+      "error": null,
+      "updated_at": "2026-07-25T17:45:51.698703+00:00"
+    },
+    "extraction": {
+      "stage": "extraction",
+      "state": "done",
+      "error": null,
+      "updated_at": "2026-07-25T17:46:18.160630+00:00"
+    },
+    "judge": {
+      "stage": "judge",
+      "state": "done",
+      "error": null,
+      "updated_at": "2026-07-25T17:46:24.922870+00:00"
+    },
+    "personality:Arjuna": {
+      "stage": "personality:Arjuna",
+      "state": "done",
+      "error": null,
+      "updated_at": "2026-07-25T17:48:02.872863+00:00"
+    },
+    "personality:Ashwatthama": {
+      "stage": "personality:Ashwatthama",
+      "state": "failed",
+      "error": "'dict' object has no attribute 'episode_num'",
+      "updated_at": "2026-07-25T17:46:21.045548+00:00"
+    },
+    "personality:Bhima": {
+      "stage": "personality:Bhima",
+      "state": "failed",
+      "error": "'dict' object has no attribute 'episode_num'",
+      "updated_at": "2026-07-25T17:46:21.450361+00:00"
+    },
+    "personality:Dhrishtadyumna": {
+      "stage": "personality:Dhrishtadyumna",
+      "state": "failed",
+      "error": "'dict' object has no attribute 'episode_num'",
+      "updated_at": "2026-07-25T17:46:23.901330+00:00"
+    },
+    "personality:Drona": {
+      "stage": "personality:Drona",
+      "state": "failed",
+      "error": "'dict' object has no attribute 'episode_num'",
+      "updated_at": "2026-07-25T17:46:24.175071+00:00"
+    },
+    "personality:Krishna": {
+      "stage": "personality:Krishna",
+      "state": "failed",
+      "error": "'dict' object has no attribute 'episode_num'",
+      "updated_at": "2026-07-25T17:46:24.632764+00:00"
+    },
+    "personality:Sage": {
+      "stage": "personality:Sage",
+      "state": "failed",
+      "error": "'dict' object has no attribute 'episode_num'",
+      "updated_at": "2026-07-25T17:46:27.546831+00:00"
+    },
+    "personality:Yudhishthira": {
+      "stage": "personality:Yudhishthira",
+      "state": "failed",
+      "error": "'dict' object has no attribute 'episode_num'",
+      "updated_at": "2026-07-25T17:46:27.765438+00:00"
+    },
+    "personality:soldiers nearby": {
+      "stage": "personality:soldiers nearby",
+      "state": "failed",
+      "error": "'dict' object has no attribute 'episode_num'",
+      "updated_at": "2026-07-25T17:46:27.385642+00:00"
+    },
+    "judge:Arjuna": {
+      "stage": "judge:Arjuna",
+      "state": "done",
+      "error": null,
+      "updated_at": "2026-07-25T17:48:12.295950+00:00"
+    }
+  }
+}

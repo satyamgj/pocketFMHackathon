@@ -1,0 +1,19 @@
+{
+  "character": "Arjuna",
+  "episode_num": 170,
+  "want": "To end Drona’s slaughter before Yudhishthira has to give another order that stains him.",
+  "need": "To admit that he cannot keep his brothers from crossing lines he himself would not cross.",
+  "lens": "Assumes the burden of impossible choices should fall to him, not to Yudhishthira.",
+  "preoccupation": "Keeps checking the north flank for Ashwatthama, as if confirming the facts will make the lie less damning.",
+  "voice": {
+    "tempo": "Quickens when issuing orders, slows when forced to explain losses.",
+    "diction": "Direct, rarely ornamental; names things as they are, avoids euphemism.",
+    "tells": [
+      "'We have stopped counting,' when the truth is unbearable.",
+      "'Take him alive,' as a way to end things without more blood."
+    ]
+  },
+  "forbidden_affect": "Relief that Yudhishthira, not he, bore the weight of the lie.",
+  "wound": "The day he watched his teacher, Drona, praise him for honesty as a boy, and saw the pride in Yudhishthira’s eyes.",
+  "valid_through": 170
+}
