@@ -3,6 +3,8 @@ openai>=1.50.0            # GPT API client
 pydantic>=2.6.0             # schema validation for BibleEntry, RecapScript, etc.
 fastapi
 uvicorn[standard]
+streamlit
+edge-tts
 
 # --- One-time audio -> transcript step (run BEFORE the hackathon) ---
 faster-whisper>=1.0.0       # local ASR, only needed for a one-off transcript-generation script
