@@ -185,6 +185,19 @@ st.markdown(
     header[data-testid="stHeader"] { background: transparent; }
     .block-container { padding-top: 1rem; max-width: 1200px; }
 
+    /* Force black background everywhere, regardless of the visitor's
+       browser/OS light-mode setting. The .streamlit/config.toml theme
+       block is the primary fix (it also darkens native widgets like
+       buttons/inputs/sidebar) — this is a belt-and-suspenders backup
+       for the app containers specifically. */
+    .stApp,
+    [data-testid="stAppViewContainer"],
+    [data-testid="stHeader"],
+    [data-testid="stSidebar"],
+    .main {
+        background-color: #000000 !important;
+    }
+
     /* Tighten button row spacing — with 5 episode rows + 2 rows of names,
        default Streamlit block margins add up to real scroll height */
     div.stButton { margin-bottom: 2px !important; }
@@ -225,7 +238,7 @@ st.markdown(
         padding: 26px;
         position: relative;
         overflow: hidden;
-        border: 1px solid rgba(232,118,60,0.35);
+        border: 1px solid #FF3B3B;
         cursor: default;
     }
     .home-poster::before {
@@ -246,7 +259,7 @@ st.markdown(
         background: linear-gradient(135deg, #2a1030 0%, #5c1f2e 55%, #7a3a12 100%);
         display: flex; align-items: flex-end; padding: 30px;
         position: relative; overflow: hidden;
-        border: 1px solid rgba(232,118,60,0.35);
+        border: 1px solid #FF3B3B;
         margin-bottom: 18px;
     }
     .show-poster::before {
@@ -279,6 +292,7 @@ st.markdown(
         padding: 2px 6px !important;
         margin-bottom: 6px !important;
         border-radius: 12px !important;
+        border: 1px solid #FF3B3B !important;
     }
 
     /* Player header */
