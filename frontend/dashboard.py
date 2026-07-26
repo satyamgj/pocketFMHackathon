@@ -301,6 +301,36 @@ st.markdown(
         margin-bottom: 2px;
     }
     .player-sub { color: #9c93a8; font-size: 0.85rem; margin-bottom: 14px; }
+
+    /* Dummy "coming soon" series placards on the home screen — decorative
+       only, purely to fill out the page; none of these are wired to data */
+    .placard-row-header {
+        font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 1.1rem;
+        color: #cfc3d9; margin: 34px 0 14px 0;
+    }
+    .placard {
+        height: 160px;
+        border-radius: 14px;
+        display: flex; align-items: flex-end;
+        padding: 16px;
+        position: relative;
+        overflow: hidden;
+        border: 1px solid #FF3B3B;
+        opacity: 0.7;
+        cursor: default;
+        transition: opacity 0.15s ease, transform 0.15s ease;
+    }
+    .placard:hover { opacity: 0.95; transform: translateY(-2px); }
+    .placard-title {
+        font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 1.15rem;
+        color: #FBE6C8; position: relative;
+    }
+    .placard-tag {
+        position: absolute; top: 10px; right: 10px;
+        font-size: 0.65rem; font-weight: 700; letter-spacing: 0.04em;
+        color: #FBE6C8; background: rgba(0,0,0,0.45);
+        padding: 3px 8px; border-radius: 999px;
+    }
     </style>
     """,
     unsafe_allow_html=True,
@@ -349,6 +379,28 @@ if st.session_state.stage == "home":
     if st.button("Explore", type="primary"):
         st.session_state.stage = "detail"
         st.rerun()
+
+    # Decorative placeholder series — not wired to any data, just fills out
+    # the page. Only Mahabharata (above) is a real, working series.
+    st.markdown('<div class="placard-row-header">More on Infinite Story Universe</div>', unsafe_allow_html=True)
+    DUMMY_SERIES = [
+        ("Ramayana", "linear-gradient(135deg, #10233a 0%, #1f4d5c 55%, #2f7a5e 100%)"),
+        ("Ahsoka", "linear-gradient(135deg, #0d1a33 0%, #1f3d6b 55%, #3c6bd4 100%)"),
+        ("Agents of SHIELD", "linear-gradient(135deg, #1a1a2e 0%, #33334d 55%, #4c4c7a 100%)"),
+        ("Shaktimaan", "linear-gradient(135deg, #331a0d 0%, #6b3d1f 55%, #d4913c 100%)"),
+    ]
+    placard_cols = st.columns(len(DUMMY_SERIES))
+    for col, (title, gradient) in zip(placard_cols, DUMMY_SERIES):
+        with col:
+            st.markdown(
+                f"""
+                <div class="placard" style="background: {gradient};">
+                    <div class="placard-tag">COMING SOON</div>
+                    <div class="placard-title">{title}</div>
+                </div>
+                """,
+                unsafe_allow_html=True,
+            )
 
 # --------------------------------------------------------------------------
 # STAGE 2 — DETAIL + PERSPECTIVES + PLAYER (one screen, panel reveals progressively)
